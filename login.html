@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <title>买买提-登录验证</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login-style.css">
+</head>
+<body>
+    <header>
+        <h1>买买提</h1>
+        <p>最便捷的分提管家</p>
+    </header>
+    <main>
+        <div class="input-group fill-number">
+            <span class="input-group-adon fst-3number">186</span>
+            <span style="color: #fff;font-size: 3rem">-</span>
+            <input type="text" class="form-control" maxlength="4" minlength="4">
+            <span style="color: #fff;font-size: 3rem">-</span>
+            <span class="input-group-adon lst-4number">4567</span>
+        </div>
+        <div class="input-group checkbox">
+            <span style="float: left"><input type="number" class="form-control fill-code" placeholder="请输入您的验证码"></span>
+            <button class="btn btn-info input-group-addon get-code">获取验证码</button>
+        </div>
+        <button class="btn btn-primary login">立即登录</button>
+    </main>
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+@charset "utf-8";
+/*~~~~~~~~~~~~~~~~~~~~2018.3.14 by Wei~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~css reset~~~~~~~~~~~~~~~~~~~*/
+*{margin:0;padding:0;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-text-size-adjust:none;-webkit-user-select:none;-ms-user-select:none;user-select:none;font-family:Arial, "微软雅黑";}
+img{border:none;max-width:100%;vertical-align:middle;}
+body,p,form,input,button,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6{margin:0;padding:0;list-style:none;overflow-x:hidden}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+input,textarea{-webkit-user-select:text;-ms-user-select:text;user-select:text;-webkit-appearance:none;font-size:1em;line-height:1.5em;}
+table{border-collapse:collapse;}
+input,select,textarea{outline:none;border:none;background:none;}
+a{outline:0;cursor:pointer;*star:expression(this.onbanner=this.blur());}
+a:link,a:active{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{color:#f00;text-decoration:underline;}
+a{text-decoration:none;-webkit-touch-callout:none;}
+em,i{font-style:normal;}
+li,ol{list-style:none;}
+html{font-size:10px;}
+.clear{clear:both;height:0;font-size:0;line-height:0;visibility:hidden; overflow:hidden;}
+.fl{float:left;}
+.fr{float:right;}
+body{ margin:0;padding: 0}
+
+/*~~~~~~~~~~~~~~~~~~global~~~~~~~~~~~~~~~~~~~~~*/
+body {
+    color: rgb(0, 132, 255);
+    background-image: url("../images/login-bg.png");
+    font: 62.5%;
+    box-sizing: border-box;
+}
+
+/*~~~~~~~~~~~~~~~~~~~header~~~~~~~~~~~~~~~~~~~~~*/
+header {
+    margin-top: 0;
+    margin-left: 0;
+    padding: 5rem 0;
+    text-align: center;
+
+}
+h1  {
+    font-size: 4rem;
+    line-height: 5rem;
+    height: 5rem;
+}
+header p {
+    color: #fff;
+    font-family: kaiti;
+    font-size: 2.4rem;
+    line-height: 5rem;
+}
+
+/*~~~~~~~~~~~~~~~~~~~main~~~~~~~~~~~~~~~~~~~~~~~*/
+main {
+    margin: 0 auto;
+    padding: 0 10vw;
+}
+.fst-3number, .lst-4number{
+    font-size: 3.2rem;
+    color: #fff;
+    vertical-align: middle;
+}
+.fill-number {
+    text-align: center;
+    vertical-align: middle;
+    margin: 4rem 0 1rem 0;
+}
+.fill-number input {
+    width: 25vw;
+    text-align: center;
+    font-size: 3.2rem;
+    height: 2.2rem;
+    background-color: transparent;
+    color: #fff;
+    margin-bottom: 0;
+}
+.checkbox {
+    width: 80vw;
+    padding: 0;
+    margin-bottom: 5rem;
+}
+.fill-code {
+    width: 44vw;
+}
+.get-code {
+    font-size: 1.2rem;
+    width: 31vw;
+    background-color: rgb(0, 132, 255);
+}
+.login {
+    width: 78vw;
+}
